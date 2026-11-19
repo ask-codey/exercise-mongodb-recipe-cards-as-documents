@@ -1,0 +1,26 @@
+[
+  {
+    "_id": 1,
+    "name": "Saturday Pancakes",
+    "cuisine": "American",
+    "meal": "breakfast",
+    "minutes": 25,
+    "servings": 4,
+    "vegetarian": true,
+    "rating": 4.6,
+    "tags": ["sweet", "kid-friendly"],
+    "ingredients": [
+      {"name": "flour", "amount": 2, "unit": "cup"},
+      {"name": "sugar", "amount": 2, "unit": "tablespoon"},
+      {"name": "baking powder", "amount": 2, "unit": "teaspoon"},
+      {"name": "salt", "amount": 0.5, "unit": "teaspoon"},
+      {"name": "milk", "amount": 1.5, "unit": "cup"},
+      {"name": "eggs", "amount": 2, "unit": "whole"},
+      {"name": "butter", "amount": 3, "unit": "tablespoon"},
+      {"name": "vanilla", "amount": 1, "unit": "teaspoon"}
+    ],
+    "nutrition": {"calories": 310, "protein": 9},
+    "costPerServing": {"$numberDecimal": "0.85"},
+    "added": {"$date": "2026-01-10T00:00:00Z"}
+  }
+]
